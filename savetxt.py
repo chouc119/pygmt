@@ -61,4 +61,4 @@ TWgrid_array=np.array(TWgrid)
 #   -header： str，可選
 #   將在文件開頭寫入的字符串。
 #------------------------------------------------------------------------------------------------------------------------------
-np.savetxt('TWgrid.csv' , TWgrid_array , fmt='%d', delimiter=',')
+np.savetxt('TWgrid.csv' , TWgrid_array , fmt='%.3e', delimiter=',')
